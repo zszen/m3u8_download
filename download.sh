@@ -4,7 +4,7 @@ COUNTER=1
 
 # 要跳过的片段数量（用于中断后继续下载）
 SKIP=${2:0}
-export all_proxy=socks5://127.0.0.1:1086
+export all_proxy=
 
 mkdir -p ts
 
